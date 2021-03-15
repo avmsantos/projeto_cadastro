@@ -1,0 +1,21 @@
+{
+    "name": "eti/composer-php",
+    "description": "aprendendo a mexer",
+    "authors": [
+        {
+            "name": "Amanda Victoria",
+            "email": "amandamelquiades01@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5.2",
+        "monolog/monolog": "^2.2",
+        "symfony/validator": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "classes/"
+        }
+    }
+  
+}
